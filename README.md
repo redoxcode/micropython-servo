@@ -1,7 +1,9 @@
 ## Description
-A micropython library to control rc servos. 
+A micropython library to control rc servos in a tidy way. 
+
 This uses hardware PWM as an efficient way to generate the ouput signal. 
 But therefore servos need to be connected to pins with PWM functionallity.
+
 The servos can be calibrated using 2 points (min / max position).
 The default values should work for most servos, but won't set the servo to the exact position, as these values are different for each servo model.
 
