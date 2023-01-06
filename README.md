@@ -1,3 +1,4 @@
+[![pypi version shield](https://img.shields.io/pypi/v/micropython-servo)](https://pypi.org/project/micropython-servo/) [![pypi downloads per month shield](https://img.shields.io/pypi/dm/micropython-servo?color=brightgreen)](https://pypi.org/project/micropython-servo/)
 ## Description
 A micropython library to control rc servos in a tidy way. 
 
