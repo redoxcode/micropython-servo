@@ -7,19 +7,19 @@ class Servo:
         self.pwm.freq(freq)
         self.current_us = 0.0
         self._slope = (min_us-max_us)/(math.radians(min_deg)-math.radians(max_deg))
-        self._offset = math.radians(min_deg)
+        self._offset = min_us
         
     def write(self,deg):
         self.write_rad(math.radians(deg))
 
-    def read(sefl):
+    def read(self):
         return math.degrees(self.read_rad())
         
     def write_rad(self,rad):
-        self.write_us((rad-self._offset)*self._slope)
+        self.write_us(rad*self._slope+self._offset)
     
     def read_rad(self):
-        return (self.current_us/self._slope)+self._offset
+        return (self.current_us-self._offset)/self._slope
         
     def write_us(self,us):
         self.current_us=us
