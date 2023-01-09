@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "micropython-servo"
-version = "1.0.0"
+version = "1.0.1"
 description = "Use rc servos with PWM in micropython in a tidy way"
 readme = "README.md"
 authors = [{ name = "redoxcode", email = "redoxcode@github.com" }]
