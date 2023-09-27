@@ -1,12 +1,9 @@
 {
   "urls": [
-    ["mlx90640/__init__.py", "github:org/micropython-mlx90640/mlx90640/__init__.py"],
-    ["mlx90640/utils.py", "github:org/micropython-mlx90640/mlx90640/utils.py"]
+    ["servo/__init__.py", "github:redoxcode/micropython-servo/src/servo/__init__.py"],
+    ["servo/__main__.py", "github:redoxcode/micropython-servo/src/servo/__main__.py"]
   ],
   "deps": [
-    ["collections-defaultdict", "latest"],
-    ["os-path", "latest"],
-    ["github:org/micropython-additions", "main"]
   ],
   "version": "1.0.1"
 }
