@@ -8,6 +8,16 @@ But therefore servos need to be connected to pins with PWM functionallity.
 The servos can be calibrated using 2 points (min / max position).
 The default values should work for most servos, but won't set the servo to the exact position, as these values are different for each servo model.
 
+## Install
+Place the library in the **lib** folder of your device (create the folder if it doesn't exist yet).
+
+It should look like this:
+
+- **lib**
+   - **servo**
+      - **\_\_init\_\_.py**
+      - **\_\_main\_\_.py**
+
 ## Examples
 ### Move servo
 ```Python
